@@ -11,6 +11,6 @@ describe 'Testing for fizzBuzz' do
     expect(fizzbuzz(15)).to eql("fizzbuzz")
   end
   it 'return number to string if its neither a multiple of 3 or 5' do
-    expect(fizzbuzz(15)).to eql("fizzbuzz")
+    expect(fizzbuzz(7)).to eql('7')
   end
 end
