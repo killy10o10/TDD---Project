@@ -5,5 +5,3 @@ def reverse(string)
   end
   return text  
 end
-
-
